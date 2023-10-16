@@ -25,7 +25,7 @@ const config:webpack.Configuration={
          })
     ],
     resolve:{
-        extensions:[".tsx",".ts",".js"]
+        extensions:[".ts",".tsx",".js"]
     }
 }
 
