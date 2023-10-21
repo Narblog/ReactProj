@@ -1,0 +1,12 @@
+.btnDown{
+    width:250px;
+    height: 60px;
+    background-color: #FCD679;
+   
+    border:none;
+    font-size:24px;
+}
+.DownloadBtn{
+    display: flex;
+    gap:30px;
+}
