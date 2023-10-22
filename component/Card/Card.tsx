@@ -8,13 +8,13 @@ type Props={
     id:number;
     image:string;
 }
-export const Card=({name,text,string,id})=>{
+export const Card=()=>{
     return(
         <div className="card">
             <div className="imag">
 
             </div>
-            <h2>Name:{name}</h2>
+            <h2>Name:</h2>
             <p> been the industry's standard dummy text ever 
          since the 1500s, when an unknown printer took  </p>
         </div>
