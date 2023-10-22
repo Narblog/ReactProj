@@ -1,6 +1,8 @@
 body{
     margin:0;
     padding:0;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 nav{
@@ -15,7 +17,7 @@ nav{
     padding:0;
     background-color: #FDEFE6;
     width: 100%;
-    height: 700px;
+    height: auto;
 }
 .HeadImag{
     display: flex;
