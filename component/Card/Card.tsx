@@ -2,21 +2,26 @@ import React from "react";
 import "./card.css"
 
 
-type Props={
-    name:string;
-    text:string;
+interface PersonProps{
     id:number;
-    image:string;
+    Name:string;
+    text:string;
+    imageURL:string
+
+
 }
-export const Card=()=>{
+type PrivateProps = {
+    data: PersonProps
+  }
+  const Card: React.FC<PrivateProps> = ({data}) =>{
     return(
         <div className="card">
-            <div className="imag">
-
-            </div>
-            <h2>Name:</h2>
-            <p> been the industry's standard dummy text ever 
-         since the 1500s, when an unknown printer took  </p>
+            
+        <img src={data.imageURL} alt="text" />
+            
+            <h2>{data.Name}</h2>
+            <p>{data.text}  </p>
         </div>
     )
 }
+export default Card
